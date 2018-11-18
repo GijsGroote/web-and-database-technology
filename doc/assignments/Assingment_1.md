@@ -76,19 +76,40 @@ Find four examples of your chosen board game (in 2D) that can be played online i
 
 ![Battleship_Example_#1](https://img.bhs4.com/95/D/95D550FDD0C1DD4888B206C17857C36C26110B6B_lis.jpg)
 
-[Battleship example #1 URL](https://www.alteredgamer.com/free-pc-gaming/99268-battleship-games-wage-a-naval-war-online/)
+[Battleship example 1 URL](https://www.alteredgamer.com/free-pc-gaming/99268-battleship-games-wage-a-naval-war-online/)
+
+This game is beautifull. The look is just beatifull. It should be against a other player in an online game (and not a computer). The statics above come in handy, this will be implemented in hour game as well.
 
 #### Battleship example 2
 
-![image info](../recources/battleshipExampleOne.png)
+![Image](resources/battleshipExampleTwo.png)
 
+[Battleship example 2 URL](http://nl.battleship-game.org/)
+
+The functionality is there. However the css in the game could be a little more than just the basic grid. Also the statics are missing, how many times can i shoot where are my boats hit. Notice this is still in the setup of the game. The boats are not yet placed.
 
 #### Battleship example 3
+
+![Image](resources/battleshipExampleThree.png)
+
+[Battleship example 3 URL](https://www.mathsisfun.com/games/battleship.html)
+
+Great Looking game. It appears to be somewhere in between 2D and 3D. appart from being black and white the boats do look nice, the effectiveness of the board could be better. Only a part of the screen is part of the game. This should be extended to a larger portion of the screen.
+
 #### Battleship example 4
 
+![Image](resources/battleshipExampleFour.png)
+
+[Battleship example 4 URL](https://www.mathplayground.com/battleship.html)
+
+Even though the boats and colors look a bit basic. the game does feels old school. This is a good thing, battleship is an old game and the retro style should be amplified. Als well as example 3 the board could take up an larger amount of the screen.
 
 **4.3)** *
 Which game features in the examples of 4.2) stand out positively and which stand out negatively?*
+
+Positive are the game colors, boats and grid should be properly styled css. Also the grid in which the boats are placed should be 'full screen' or at least take up a large amount of space. Statics do come in handy. They give you the feeling that you can play with a certain strategy.
+
+Less positive (bad) aspects are black and white colors. These are just less comfortable to look at. The playground of the game should not be small. At least 50% of the screen widht and height should be part of the board game.
 
 **5. Design your own board game app**
 
