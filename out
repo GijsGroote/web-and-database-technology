@@ -1,0 +1,18 @@
+Trying 80.92.65.53...
+Connected to weer.nl.
+Escape character is '^]'.
+HTTP/1.1 400 Bad Request
+Date: Thu, 15 Nov 2018 16:18:22 GMT
+Server: Apache
+Status: 400 Bad Request
+Content-Length: 207
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>Your client has issued a malformed or illegal request.</p>
+</body></html>
