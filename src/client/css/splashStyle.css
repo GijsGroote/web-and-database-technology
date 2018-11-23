@@ -1,11 +1,7 @@
 /* Background Image */
 body {
-    background-image: url("");
-    background: fixed no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-image: url("../images/background.jpg");
+   
 }
 
 h1 {
@@ -15,5 +11,5 @@ h1 {
 
 #gameStats p {
     font-family: 'Courier New', Courier, monospace;
-    color: grey;
+    color: white;
 }
