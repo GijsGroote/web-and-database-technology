@@ -1,4 +1,12 @@
-/* TODO */
+/* Background Image */
+body {
+    background-image: url("");
+    background: fixed no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
 h1 {
     font-family: 'STENCIL', 'Gill Sans', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
