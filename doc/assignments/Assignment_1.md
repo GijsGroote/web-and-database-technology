@@ -24,7 +24,7 @@ __Contents__
 **1.1)** *
 Write down the HTTP requests you made, the returned responses (e.g. a page has moved or is faulty) until you receive the contents of the Dutch rainfall radar page. Always use HEAD first to retrieve meta-­data about the resource.*
 
-[Long telnet response weer.nl URL](https://github.com/GijsGroote/web-and-database-technology/blob/master/doc/resources/Assignment1_1.html)
+[Long telnet response weer.nl URL](https://github.com/GijsGroote/web-and-database-technology/blob/master/doc/assignments/assignment_1_resources/Assignment1_1.html)
 
 **1.2)** *
 Does the content correspond to what you see when accessing the page with your browser? To check, save the response to a file, use .html as file ending and open it with your browser.*
@@ -32,7 +32,31 @@ Does the content correspond to what you see when accessing the page with your br
 It looks a lot alike but not completely, instead of the clean site we have this text at the top of the site.
 
 ```
-Trying 52.214.61.159... Connected to b2cwebsite-live-lb-960116390.eu-west-1.elb.amazonaws.com. Escape character is '^]'. HTTP/1.1 200 OK Age: 542 Cache-Control: max-age=600 Content-Type: text/html; charset=utf-8 Date: Tue, 20 Nov 2018 11:23:16 GMT Server: nginx/1.12.0 Vary: Accept-Encoding Via: 1.1 varnish-v4 X-Cache: HIT X-Powered-By: PHP/5.5.26 X-Varnish: 1023082487 1023706730 Connection: keep-alive HTTP/1.1 200 OK Accept-Ranges: bytes Age: 572 Cache-Control: max-age=600 Content-Type: text/html; charset=utf-8 Date: Tue, 20 Nov 2018 11:23:16 GMT Server: nginx/1.12.0 Vary: Accept-Encoding Via: 1.1 varnish-v4 X-Cache: HIT X-Powered-By: PHP/5.5.26 X-Varnish: 1024295001 1023706730 transfer-encoding: chunked Connection: keep-alive 3184
+Trying 52.214.61.159... Connected
+to
+b2cwebsite-live-lb-960116390.eu-west
+-1.elb.amazonaws.com. Escape
+character is '^]'. HTTP/1.1 200 OK
+Age: 542 Cache-Control: max-age=600
+Content-Type: text/html;
+charset=utf-8 Date: Tue, 20 Nov
+2018 11:23:16 GMT Server:
+nginx/1.12.0 Vary: Accept-Encoding
+Via: 1.1 varnish-v4 X-Cache: HIT
+X-Powered-By: PHP/5.5.26 X-Varnish:
+1023082487 1023706730 Connection:
+keep-alive HTTP/1.1 200 OK
+Accept-Ranges: bytes Age: 572
+Cache-Control: max-age=600
+Content-Type: text/html;
+charset=utf-8 Date: Tue, 20 Nov
+2018 11:23:16 GMT Server:
+nginx/1.12.0 Vary: Accept-Encoding
+Via: 1.1 varnish-v4 X-Cache: HIT
+X-Powered-By: PHP/5.5.26 X-Varnish:
+1024295001 1023706730
+transfer-encoding: chunked
+Connection: keep-alive 3184
 ```
 
 for the rest the content is the same.
