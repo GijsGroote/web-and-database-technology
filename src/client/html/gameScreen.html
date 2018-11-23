@@ -1,18 +1,63 @@
 <!doctype html>
- <!---- TRODOOFDOFODOF-->
+
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
+    <meta charset="utf-8">
 
-  <title>The HTML5 Herald</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
+    <title>Battle Beer Game</title>
+    <meta name="description" content="Battle Beer Game">
+    <meta name="author" content="Nicolas & Gijs">
 
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
+    <link rel="stylesheet" href="../css/gameStyle.css">
 
 </head>
 
 <body>
-  <script src="js/scripts.js"></script>
+    <!-- Header -->
+    <header>
+       
+
+        <!-- Statistics for the game -->
+        <div id="gameStats">
+            <table>
+                <tr>
+                    <td>
+                        <p>Games Currently Going On: </p>
+                    </td>
+
+                    
+                    <td>
+                        <p>Overall Highscore: </p>
+                        <div id="overallHighscore" class="gameStatsField"></div>
+                    </td>
+
+                </tr>
+            </table>
+        </div>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <!--Buttons to play the game and how to play the game -->
+        <div id="buttonsContainter">
+            <button type="button">Play</button>
+
+            <button type="button">Tutorial</button>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <!-- Full screen mode -->
+        <button id="fullScreenMode" type="button">
+            Enter Full Screen Mode
+        </button>
+    </footer>
+
+    <!-- Load in javaScript -->
+    <script src="../js/gameScript.js"></script>
+
 </body>
+
 </html>
