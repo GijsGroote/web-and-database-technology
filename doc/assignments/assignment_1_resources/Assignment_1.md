@@ -17,6 +17,7 @@ __Contents__
 - 4. **Web programming project: board game app**
 - 5. **Design your own board game app**
 - 6. **Your own board game app: HTML**
+
 ---
 
 **1. HTTP request messages: GET/HEAD**
@@ -203,7 +204,7 @@ This game is beautifull. The look is just beatifull. It should be against a othe
 
 #### Battleship example 2
 
-![Image](assignment_1_resources/battleshipExampleTwo.png)
+![Image](battleshipExampleTwo.png)
 
 [Battleship example 2 URL](http://nl.battleship-game.org/)
 
@@ -211,7 +212,7 @@ The functionality is there. However the css in the game could be a little more t
 
 #### Battleship example 3
 
-![Image](assignment_1_resources/battleshipExampleThree.png)
+![Image](battleshipExampleThree.png)
 
 [Battleship example 3 URL](https://www.mathsisfun.com/games/battleship.html)
 
@@ -219,7 +220,7 @@ Great Looking game. It appears to be somewhere in between 2D and 3D. appart from
 
 #### Battleship example 4
 
-![Image](assignment_1_resources/battleshipExampleFour.png)
+![Image](battleshipExampleFour.png)
 
 [Battleship example 4 URL](https://www.mathplayground.com/battleship.html)
 
@@ -243,8 +244,10 @@ Create a design for the game screen, keeping the requirements listed above in mi
 **5.3)** *
 Once you have completed the design of your app, head over to CSE1500's 💡 Brightspace, go to Discussions and then the forum BOARD GAME APP DESIGNS. Create a thread with your team's name as subject/title (e.g. CSE234) and post your team's proposed splash screen and game screen. Feel free to also add a paragraph describing your choices.*
 
-![Image](assignment_1_resources/splashScreen.jpg)
-![Image](assignment_1_resources/gameScreen.jpg)
+![Image](splashScreen.jpg)
 
-**6. Your own board game app: HTML** *
+![Image](gameScreen.jpg)
+
+**6. Your own board game app: HTML**
+*
 Similar to the course book, take your design as a starting point and create the respective two HTML documents. These documents should only contain HTML, no CSS or JavaScript. To get an idea on the expected amount of content, check game.html and splash.html of the demo board game. Ignore the few lines of code loading JavaScript and CSS files, these will be covered in Assignments 2 and 3 respectively.*
