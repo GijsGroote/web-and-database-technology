@@ -1,0 +1,55 @@
+When coding, we do not create a 'game' we create a subtask, the game is a list of subtasks. 
+these tasks are devided in 3 categories. Must haves, should haves and could haves.
+All these requirements are functional requirements
+
+shortcuts:
+- (as) all screens
+- (ts) tutorial screen
+- (ss) splash screen
+- (pbs) place beer screen
+- (gs) game screen
+- (egs) end game screen
+- (s.js) server.js the file that handles all server side functionality
+- (db) data base (SQLite, or mySQL)
+
+Must haves:
+- (as) full screen functionality
+- (as) keep track of the user with states
+- (as) create cookies to track if the user is known
+
+- (ts) Create a template to put in videos or gif or loaads of css
+- (ts) create videos which explain how the game works, create gif's which autoplay
+- (ss), (s.js), (db) update statics in splash screen
+- (ss), (s.js) create play game button
+- (ss), (s.js) create tutorial button
+
+- (pbs) ask for username, player 1 and player 2
+- (pbs) place the beers
+- (pbs) validation check if the move is valid
+
+- (gs) Creating the grid
+- (gs) Creating the drinks
+- (gs) functionality for placing the drinks on the game
+- (gs) shoot on enemy grid
+- (gs) create main game loop
+- (gs) updating statics while playing the game, drunk level etc.
+- (gs) validation check if the move is valid
+ 
+- (egs) create happy winning popup which is shown to the winning player
+- (egs) create sad losing popup which is shown to the losing player
+- (egs) create go to splash screen button
+- (egs), (s.js) update statics 
+
+Should haves:
+- (gs) animations for hovering over the enemy grid
+- (gs) animations for shooting
+- (gs) animations for shooting and hitting
+- (gs) animations for shooting and missing
+- (gs) animations for drinking a drink
+
+
+Could haves:
+- (as) in between states create a small video. 
+- (as) create skip intro video 
+
+- (gs) make random blur in the screen as the player gets more drunk
