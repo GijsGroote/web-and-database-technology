@@ -1,0 +1,15 @@
+/* Background Image */
+body {
+    background-image: url("../images/background.jpg");
+   
+}
+
+h1 {
+    font-family: 'STENCIL', 'Gill Sans', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+
+#gameStats p {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
