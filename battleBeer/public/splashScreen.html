@@ -9,6 +9,7 @@
     <meta name="description" content="Splash screen of our Battle Beer Game">
     <meta name="author" content="Nicolas & Gijs">
 
+    <link rel="stylesheet" href="./stylesheets/containerLayoutStyle.css">
     <link rel="stylesheet" href="../public/stylesheets/splashStyle.css">
 
 </head>
@@ -72,38 +73,13 @@
 
     <!-- the space right of the image -->
     <div id="containerRight" class="containterSide">
-
-
     </div>
 
-    <!-- Load in javaScript -->
-    <!-- Load in jQuery -->
-    <script src="./javascripts/jquery.min.js"></script>
-    <script>
-        window.onresize = function () {
-            console.log("i mean funciton is called at least")
-            var screenWidth = window.innerWidth;
-            var containerMiddleWidth = document.getElementById("containerMiddle").offsetWidth
-            if (containerMiddleWidth >= screenWidth) {
-                document.getElementById('containerLeft').setAttribute("style", "width:0px");
-                document.getElementById('containerRight').setAttribute("style", "width:0px");
-            }
-            else {
-                var sidesWidth = (screenWidth - containerMiddleWidth) / 2;
-                console.log("the screenwidht is larger than that middle container" + sidesWidth)
-                document.getElementById('containerLeft').setAttribute("style", "width:" + sidesWidth + "px");
-                document.getElementById('containerRight').setAttribute("style", "width:" + sidesWidht + "px");
-            }
-        }
-
-
-// calculate the widht for the containers on the side
-        // set the side containers to this widht    
-
-    </script>
-    <script src="../public/javascripts/splashScript.js"></script>
-    <script src="../javascripts/fullScreen.js"></script>
-
+    <!-- Load in jQuery and other scripts-->
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/resizeContainersScript.js"></script>
+    <script src="./js/splashScript.js"></script>
+    <script src="./js/fullScreen.js"></script>
 </body>
 
 </html>

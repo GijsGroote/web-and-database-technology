@@ -1,7 +1,7 @@
 /* center the title */
 #gameTitle {
     font-family: 'STENCIL', 'Gill Sans', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 140px;
+    font-size: 100px;
     color: black;
     margin: -15px 0 -15px 0;
     width: 100%;
@@ -18,14 +18,14 @@
 
 .statName p {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
+    font-size: 15px;
     color: white;
 }
 
 /* target field to load in data */
 .target {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
+    font-size: 18px;
     color: whitesmoke;
 }
 
@@ -34,101 +34,4 @@
     margin: 0 15px 0 5px;
 }
 
-
-
-/* set this shit in seperate file */
-
-/* set html to 100% so the background height will be set to 100% */
-html {
-    height: 100%;
-}
-
-/* deactivate default body margin */
-body {
-    height: 100%;
-    margin: 0;
-}
-
-/* Background Image */
-/* #containerBackground {
-    display: inline-block;
-    background-image: url("../images/background.jpg");
-    background-repeat: no-repeat;
-    background-size: auto 100%;
-    background-position-x: 50%;
-    margin: 0px;
-} */
-
-
-
-
-/* the 3 containers, left, middle and right */
-#containerLeft {
-    float: left;
-    background-color: black;
-    height: 100%;
-    top: 0;
-    bottom: 0;
-}
-
-
-#containerMiddle {
-    float: left;
-    /* the background image has an 2/3 ratio */
-    height: 100vh;
-    width: 150vh;
-    top: 0;
-    bottom: 0;
-    /* todo: load in this image from the html file */
-    background-image: url("../images/background.jpg");
-    background-size: auto 100%;
-    background-repeat: no-repeat;
-
-    
-}
-
-#containerRight {
-    float: left;
-    background-color: green;
-    top: 0;
-    bottom: 0;
-    height: 100%;
-}
-
-/* .containterSide {
-    width: 0px;
-} */
-
-/* #row:after {
-    content: " ";
-    display: table;
-    clear: both;
-} */
-
-/* header CSS */
-header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    text-align: center;
-    height: 20%;
-}
-
-/* main CSS */
-
-main {
-    position: relative;
-    top: 20%;
-    height: 70%;
-}
-
-
-/* footer CSS */
-footer {
-    height: 10%;
-    position: fixed;
-    bottom: 0;
-    left: 50%;
-    margin-left: -512px;
-    width: 1024px;
-}
+/* TODO, more css */
