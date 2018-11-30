@@ -9,7 +9,7 @@
     <meta name="description" content="Splash screen of our Battle Beer Game">
     <meta name="author" content="Nicolas & Gijs">
 
-    <link rel="stylesheet" href="../css/splashStyle.css">
+    <link rel="stylesheet" href="../public/stylesheets/splashStyle.css">
 
 </head>
 
@@ -27,14 +27,14 @@
                         <p>Games Currently Going On: </p>
                     </td>
 
-                    
+
                     <td>
                         <p>Overall Highscore: </p>
                         <div id="overallHighscore" class="gameStatsField"></div>
                     </td>
 
 
-                    
+
                 </tr>
             </table>
         </div>
@@ -44,22 +44,23 @@
     <main>
         <!--Buttons to play the game and how to play the game -->
         <div id="buttonsContainter">
-            <button type="button">Play</button>
+            <button type="button"><a href="placeBeersScreen.html">Play</a></button>
 
-            <button type="button">Tutorial</button>
+            <button type="button"><a href="tutorialScreen.html">Tutorial</a></button>
         </div>
     </main>
 
     <!-- Footer -->
     <footer>
         <!-- Full screen mode -->
-        <button id="fullScreenMode" type="button">
-            Enter Full Screen Mode
+        <button id="fullScreenMode" onclick="fullScreen();" type="button">
+            Full Screen Mode
         </button>
     </footer>
 
     <!-- Load in javaScript -->
-    <script src="../js/splashScript.js"></script>
+    <script src="../public/javascripts/splashScript.js"></script>
+    <script src="../javascripts/fullScreen.js"></script>
 
 </body>
 
