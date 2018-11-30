@@ -17,6 +17,7 @@ __Contents__
 - 4. **Web programming project: board game app**
 - 5. **Design your own board game app**
 - 6. **Your own board game app: HTML**
+
 ---
 
 **1. HTTP request messages: GET/HEAD**
@@ -24,7 +25,7 @@ __Contents__
 **1.1)** *
 Write down the HTTP requests you made, the returned responses (e.g. a page has moved or is faulty) until you receive the contents of the Dutch rainfall radar page. Always use HEAD first to retrieve meta-­data about the resource.*
 
-[Long telnet response weer.nl URL](https://github.com/GijsGroote/web-and-database-technology/blob/master/doc/resources/Assignment1_1.html)
+[Long telnet response weer.nl URL](https://github.com/GijsGroote/web-and-database-technology/blob/master/doc/assignments/assignment_1_resources/Assignment1_1.html)
 
 **1.2)** *
 Does the content correspond to what you see when accessing the page with your browser? To check, save the response to a file, use .html as file ending and open it with your browser.*
@@ -32,7 +33,31 @@ Does the content correspond to what you see when accessing the page with your br
 It looks a lot alike but not completely, instead of the clean site we have this text at the top of the site.
 
 ```
-Trying 52.214.61.159... Connected to b2cwebsite-live-lb-960116390.eu-west-1.elb.amazonaws.com. Escape character is '^]'. HTTP/1.1 200 OK Age: 542 Cache-Control: max-age=600 Content-Type: text/html; charset=utf-8 Date: Tue, 20 Nov 2018 11:23:16 GMT Server: nginx/1.12.0 Vary: Accept-Encoding Via: 1.1 varnish-v4 X-Cache: HIT X-Powered-By: PHP/5.5.26 X-Varnish: 1023082487 1023706730 Connection: keep-alive HTTP/1.1 200 OK Accept-Ranges: bytes Age: 572 Cache-Control: max-age=600 Content-Type: text/html; charset=utf-8 Date: Tue, 20 Nov 2018 11:23:16 GMT Server: nginx/1.12.0 Vary: Accept-Encoding Via: 1.1 varnish-v4 X-Cache: HIT X-Powered-By: PHP/5.5.26 X-Varnish: 1024295001 1023706730 transfer-encoding: chunked Connection: keep-alive 3184
+Trying 52.214.61.159... Connected
+to
+b2cwebsite-live-lb-960116390.eu-west
+-1.elb.amazonaws.com. Escape
+character is '^]'. HTTP/1.1 200 OK
+Age: 542 Cache-Control: max-age=600
+Content-Type: text/html;
+charset=utf-8 Date: Tue, 20 Nov
+2018 11:23:16 GMT Server:
+nginx/1.12.0 Vary: Accept-Encoding
+Via: 1.1 varnish-v4 X-Cache: HIT
+X-Powered-By: PHP/5.5.26 X-Varnish:
+1023082487 1023706730 Connection:
+keep-alive HTTP/1.1 200 OK
+Accept-Ranges: bytes Age: 572
+Cache-Control: max-age=600
+Content-Type: text/html;
+charset=utf-8 Date: Tue, 20 Nov
+2018 11:23:16 GMT Server:
+nginx/1.12.0 Vary: Accept-Encoding
+Via: 1.1 varnish-v4 X-Cache: HIT
+X-Powered-By: PHP/5.5.26 X-Varnish:
+1024295001 1023706730
+transfer-encoding: chunked
+Connection: keep-alive 3184
 ```
 
 for the rest the content is the same.
@@ -179,7 +204,7 @@ This game is beautifull. The look is just beatifull. It should be against a othe
 
 #### Battleship example 2
 
-![Image](assignment_1_resources/battleshipExampleTwo.png)
+![Image](battleshipExampleTwo.png)
 
 [Battleship example 2 URL](http://nl.battleship-game.org/)
 
@@ -187,7 +212,7 @@ The functionality is there. However the css in the game could be a little more t
 
 #### Battleship example 3
 
-![Image](assignment_1_resources/battleshipExampleThree.png)
+![Image](battleshipExampleThree.png)
 
 [Battleship example 3 URL](https://www.mathsisfun.com/games/battleship.html)
 
@@ -195,7 +220,7 @@ Great Looking game. It appears to be somewhere in between 2D and 3D. appart from
 
 #### Battleship example 4
 
-![Image](assignment_1_resources/battleshipExampleFour.png)
+![Image](battleshipExampleFour.png)
 
 [Battleship example 4 URL](https://www.mathplayground.com/battleship.html)
 
@@ -219,8 +244,10 @@ Create a design for the game screen, keeping the requirements listed above in mi
 **5.3)** *
 Once you have completed the design of your app, head over to CSE1500's 💡 Brightspace, go to Discussions and then the forum BOARD GAME APP DESIGNS. Create a thread with your team's name as subject/title (e.g. CSE234) and post your team's proposed splash screen and game screen. Feel free to also add a paragraph describing your choices.*
 
-![Image](assignment_1_resources/splashScreen.jpg)
-![Image](assignment_1_resources/gameScreen.jpg)
+![Image](splashScreen.jpg)
 
-**6. Your own board game app: HTML** *
+![Image](gameScreen.jpg)
+
+**6. Your own board game app: HTML**
+*
 Similar to the course book, take your design as a starting point and create the respective two HTML documents. These documents should only contain HTML, no CSS or JavaScript. To get an idea on the expected amount of content, check game.html and splash.html of the demo board game. Ignore the few lines of code loading JavaScript and CSS files, these will be covered in Assignments 2 and 3 respectively.*
