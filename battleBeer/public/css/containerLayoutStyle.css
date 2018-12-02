@@ -23,6 +23,7 @@ body {
 }
 
 #containerMiddle {
+    position: relative;
     float: left;
     /* the background image has an 2/3 ratio */
     height: 100%;
@@ -38,26 +39,31 @@ body {
     height: 100%;
 }
 
-/* header CSS */
+/* header */
 
 header {
-    height: 20%;
+    position: absolute;
+    header: 0;
+    height: 10%;
     width: 100%;
     text-align: center;
 }
 
-/* main CSS */
+/* main */
 
 main {
+    position: absolute;
     /* Top is the same as the height of the header */
-    top: 20%;
-    height: 70%;
-    width: 100%;
+    top: 10%;
+    height: 80%;
+    width: inherit;
 }
 
-/* footer CSS */
+/* footer */
 
 footer {
+    position: absolute;
+    bottom: 0;
     height: 10%;
     width: 100%;
 }

@@ -11,7 +11,7 @@
 
     <!-- Background image -->
     <style>
-        #containerMiddle { background-image: url("./images/metalBackGround.jpg"); }
+        #containerMiddle { background-image: url("./images/tearPlateBackground.jpg"); }
     </style>
     <link rel="stylesheet" href="./css/containerLayoutStyle.css">
     <link rel="stylesheet" href="./css/gameStyle.css">
@@ -38,8 +38,11 @@
         <main>
             <!-- Grid to play tha game -->
             
-            <!-- TODO: Create the iFrame Here -->
-
+            <!-- Iframe to load main content -->
+            <iframe src="./iFrameScreen/enterNamesScreen.html" height="100%" width="100%">
+                <!-- The tags in a iframe are only displayed if the browser does not support iFrame -->
+                <p>Your Browser does not support Iframes, Please open this web page in an other Browser</p> 
+            </iframe>
 
         </main>
 
@@ -60,7 +63,7 @@
     <script src="./js/jquery.min.js"></script>
     <script src="./js/resizeContainersScript.js"></script>
     <script src="./js/gameScript.js"></script>
-
+    <script src="./js/fullScreen.js"></script>
 </body>
 
 </html>
