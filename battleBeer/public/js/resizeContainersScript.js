@@ -18,7 +18,8 @@ function resizeContainers() {
     // check if the middle container is not larger than the viewport
     if (containerMiddleWidth >= screenWidth) {
         document.getElementById('containerLeft').setAttribute("style", "width:0px");
-        document.getElementById('containerRight').setAttribute("style", "width:0px");
+        // let the right container be 0
+        // document.getElementById('containerRight').setAttribute("style", "width:0px");
     }
     else {
         // calculate the space which can be added left and right containers
@@ -26,7 +27,9 @@ function resizeContainers() {
         
         // set the width of the left and right container
         document.getElementById('containerLeft').setAttribute("style", "width:" + sidesWidth + "px");
-        document.getElementById('containerRight').setAttribute("style", "width:" + sidesWidth + "px");
+        
+        // if the line below is 'activated' the float will go below and the page becomes scrolleble on certain viewport dimensions
+        // document.getElementById('containerRight').setAttribute("style", "width:" + sidesWidth + "px");
     }
 }
 
