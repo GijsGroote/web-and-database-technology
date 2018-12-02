@@ -1,0 +1,59 @@
+/* set html to 100% so the background height will be set to 100% */
+html {
+    height: 100%;
+}
+
+/* deactivate default body margin */
+body {
+    height: 100%;
+    margin: 0;
+}
+
+/* the 3 containers, left, middle and right */
+#containerLeft {
+    float: left;
+    background-color: white;
+    height: 100%;
+}
+
+#containerMiddle {
+    float: left;
+    /* the background image has an 2/3 ratio */
+    height: 100vh;
+    width: 150vh;
+    /* todo: load in this image from the html file */
+    background-image: url("../images/background.jpg");
+    background-size: auto 100%;
+    background-repeat: no-repeat;    
+}
+
+#containerRight {
+    float: left;
+    background-color: white;
+    height: 100%;
+}
+
+/* header CSS */
+header {
+    position: inline;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    height: 20%;
+}
+
+/* main CSS */
+
+main {
+    position: inline;
+    /* Top is the same as the height of the header */
+    top: 20%;
+    height: 70%;
+}
+
+
+/* footer CSS */
+footer {
+    position: inline;
+    height: 10%;
+}

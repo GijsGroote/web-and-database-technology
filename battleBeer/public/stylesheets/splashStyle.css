@@ -1,37 +1,13 @@
-/* Background Image */
-
-body {
-    background-image: url("../images/background.jpg");
-    background-repeat: no-repeat;
-    background-size: auto 100%;
-    background-position-x: 50%;
-    margin: 0px;
-}
-
-/* set html to 100% so the background height will be set to 100% */
-
-html {
-    height: 100%;
-}
-
-/* header CSS */
-
 /* center the title */
-
-header {
-    text-align: center;
-}
-
 #gameTitle {
     font-family: 'STENCIL', 'Gill Sans', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 140px;
+    font-size: 100px;
     color: black;
     margin: -15px 0 -15px 0;
     width: 100%;
 }
 
 /* center the statics */
-
 #gameStats {
     display: inline-block;
     text-align: center;
@@ -42,15 +18,14 @@ header {
 
 .statName p {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
+    font-size: 15px;
     color: white;
 }
 
 /* target field to load in data */
-
 .target {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
+    font-size: 18px;
     color: whitesmoke;
 }
 
@@ -59,6 +34,4 @@ header {
     margin: 0 15px 0 5px;
 }
 
-/* body CSS */
-
-/* footer CSS */
+/* TODO, more css */
