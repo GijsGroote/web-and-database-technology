@@ -1,20 +1,62 @@
-<!-- TOODODOODDOODOD-->
-
 <!doctype html>
 
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
+    <meta charset="utf-8">
 
-  <title>The HTML5 Herald</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
+    <title>Battle Beer Game</title>
+    <meta name="description" content="Battle Beer Tutorial">
+    <meta name="author" content="Nicolas & Gijs">
 
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
+    <!-- Background image -->
+    <style>
+        #containerMiddle { background-image: url("./images/background.jpg"); }
+    </style>
+    <link rel="stylesheet" href="./css/containerLayoutStyle.css">
+    <link rel="stylesheet" href="./css/tutorialScreen.css">
 
 </head>
 
 <body>
-  <script src="./js/scripts.js"></script>
+
+    <!-- The space right of the image -->
+    <div id="containerLeft" class="containterSide">
+    </div>
+
+    <!-- The middle container with all the content-->
+    <div id="containerMiddle">
+        <!-- Header -->
+        <header>
+            <h1>
+                Battle Beer
+            </h1>
+        </header>
+
+        <!-- Main -->
+        <main>
+            
+          <!-- Put tutorials here  -->
+
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <!-- Full screen mode -->
+            <button id="fullScreenMode" type="button">
+                Enter Full Screen Mode
+            </button>
+        </footer>
+    </div>
+
+    <!-- the space right of the image -->
+    <div id="containerRight" class="containterSide">
+    </div>
+
+    <!-- Load in jQuery and other scripts-->
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/resizeContainersScript.js"></script>
+
 </body>
+
 </html>
