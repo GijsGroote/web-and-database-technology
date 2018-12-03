@@ -37,21 +37,26 @@
         <!-- Main -->
         <main>
             <!-- Grid to play tha game -->
-            
+
             <!-- Iframe to load main content -->
 
 
             <!-- TODO: load in the src to iframe dynamicly depending on the state of the user -->
             <!-- <iframe src="http://www.weer.nl/" height="100%" width="100%"> -->
-                <iframe src="./iFrameScreen/enterNamesScreen.html" height="100%" width="100%">
-                    <!-- The tags in a iframe are only displayed if the browser does not support iFrame -->
-                <p>Your Browser does not support Iframes, Please open this web page in an other Browser</p> 
+            <iframe id="iFrame" src="./iFrameScreen/enterNamesScreen.html">
+                <!-- The tags in a iframe are only displayed if the browser does not support iFrame -->
+                <p>Your Browser does not support Iframes, Please open this web page in an other Browser</p>
             </iframe>
 
         </main>
 
         <!-- Footer -->
         <footer>
+
+            <!-- temp button-->
+            <button id="button">klfjsklfdjlkfdsjkl</button>
+
+
             <!-- Full screen mode -->
             <button id="fullScreenMode" type="button">
                 Enter Full Screen Mode
@@ -67,7 +72,9 @@
     <script src="./js/jquery.min.js"></script>
     <script src="./js/resizeContainersScript.js"></script>
     <script src="./js/gameScript.js"></script>
-    <script src="./js/fullScreen.js"></script>
+    <script src="./js/fullScreenScript.js"></script>
+    <script src="./js/enterNameScript.js"></script>
+
 </body>
 
 </html>
