@@ -2,7 +2,7 @@
  * Square on the grid
  * 
  * id the square number
- * height and widht are the dimensions of the square in pixels
+ * height and width are the dimensions of the square in pixels
  * beverage is the beverage on the square, if the beverage is null there is no drink on this square
  * boolean shot indicates if the square is shot(true), or the square is not shot(false)
  */
@@ -19,8 +19,6 @@ class Square {
     toString() {
         return this.name + " points: " + this.points + " description: " + this.description + "\n";
     }
-
-    
 }
 
 // setters
