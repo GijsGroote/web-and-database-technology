@@ -65,4 +65,4 @@ $("#next").click(function () {
 // sent the state to the iframe 
 var frame = document.getElementById('iFrame'); 
 
-frame.contentWindow.postMessage(state, '*'); 
+// frame.contentWindow.postMessage(state, '*'); 

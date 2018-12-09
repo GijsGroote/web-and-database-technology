@@ -9,24 +9,31 @@
     <meta name="description" content="iFrame placing beer player 1 Screen">
     <meta name="author" content="Nicolas & Gijs">
 
+    <link rel="stylesheet" href="../css/placeBeerStyle.css">
+
 
 </head>
 
 <body>
 
-   
+    <!-- TODO: create beverage and make them drageble to the board -->
     <div id="beverageHolder"> Place the beers here so the user can drag them to the board </div>
 
-    <!-- Target for the board, the creation of the board should be done dynamicly by javaScript -->
-    <div id="boardTarget"> place the board here please </div>
+    <!-- Target for the board, the board is created dynamicly in javaScript -->
+    <div id="boardTarget">
 
-    <button id="bla">
-        button temp id is called 'bla'
-    </button>
+    </div>
+
+    <div id="buttonHolder">
+        place buttons here
+    </div>
+
 
     <script src="../js/jquery.min.js"></script>
-    <script src="../js/state.js"></script>    
-    <script src="../js/drawGame.js"></script>
+    <script src="../js/state.js"></script>
+    <script src="../js/Square.js"></script>
+    <script src="../js/Board.js"></script>
+    <script src="../js/drawBoard.js"></script>
 </body>
 
 </html>
