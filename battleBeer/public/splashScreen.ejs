@@ -58,17 +58,24 @@
         <!-- Main -->
         <main>
             <!--Buttons to play the game and how to play the game -->
-            <div id="buttonsContainter">
-                <button type="button"><a href="game">Play</a></button>
-
-                <button type="button"><a href="tutorial">Tutorial</a></button>
-            </div>
+            <table id="buttonsContainter">
+                <tr>
+                    <td>
+                        <a class="button" href="game">Play</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a class="button" href="tutorial">Tutorial</a>
+                    </td>
+                </tr>
+            </table>
         </main>
 
         <!-- Footer -->
         <footer>
             <!-- Full screen mode -->
-            <button id="fullScreenMode" onclick="fullScreen();" type="button">
+            <button id="fullScreenMode" class="button" onclick="fullScreen()" type="button">
                 Full Screen Mode
             </button>
         </footer>
