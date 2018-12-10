@@ -14,50 +14,52 @@ class Square {
         this.height = height;
         this.width = width;
         this.beverage = null;
-        this.shot = false; 
+        this.shot = false;
     }
+
+
+    // toString for a human readible format
     toString() {
-        return this.name + " points: " + this.points + " description: " + this.description + "\n";
+        return "Square ID: " + this.id + ", rowNumber: " + this.rowNumber + ", columnNumber: " + this.columnNumber + "\nWith beverage: " + this.beverage + " am I shot?: " + this.shot;
+    }
+
+    // setters
+    setBeverage(beverage) {
+        // TODO: security? is beverage actually a beverage
+        this.beverage = beverage;
+    }
+
+    setShot(shot) {
+        // TODO: security is shot actually a boolean
+        this.shot = shot;
+    }
+
+    // getters
+    getID() {
+        return this.id;
+    }
+
+    getRowNumber() {
+        return this.rowNumber;
+    }
+
+    getColumnNumber() {
+        return this.columnNumber;
+    }
+
+    getHeight() {
+        return this.height;
+    }
+
+    getWidth() {
+        return this.width;
+    }
+
+    getBeverage() {
+        return this.beverage;
+    }
+
+    getShot() {
+        return this.shot;
     }
 }
-
-// setters
-function setBeverage(beverage) {
-    // TODO: security? is beverage actually a beverage
-    this.beverage = beverage;
-}
-
-function setShot(shot) {
-    // TODO: security is shot actually a boolean
-    this.shot = shot;
-}
-
-// getters
-function getID() {
-    return this.id;
-}
-
-function getRowNumber() {
-    return this.rowNumber;
-}
-
-function getColumnNumber() {
-    return this.columnNumber;
-}
-
-function getHeight() {
-    return this.height;
-}
-
-function getWidth() {
-    return this.width;
-}
-
-function getBeverage() {
-    return this.beverage;
-}
-
-function getShot() {
-    return this.shot;
-}
-

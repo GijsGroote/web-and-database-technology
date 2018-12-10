@@ -1,0 +1,79 @@
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* deactivate default body margin */
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* set the containers */
+
+/* TODO: make the holders a nice width */
+#beverageHolder {
+    float: left;
+    width: 20%;
+    height: 100vh;
+    background-color: antiquewhite;
+    opacity: 50%;
+}
+
+#boardTarget {
+    float: left;
+    width: 100vh;
+    height: 100vh;
+    background-color: white;
+    opacity: 50%;
+}
+
+#buttonHolder {
+    overflow: hidden;
+    float: right;
+    width: 25%;
+    height: 100vh;
+    background-color: orangered;
+    opacity: 50%;
+}
+
+#grid {
+    float: left;
+    height: 100vh;
+    width: 100vh;
+}
+
+.square {
+    height: 8vh;
+    width: 8vh;
+    border: 1px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.bombed {
+    border: 3px dashed black;
+}
+
+.beerSquare {
+    background-color: yellow;
+}
+
+.wineSquare {
+    background-color: red;
+}
+
+.shotSquare {
+    background-color: gray;
+}
+
+
+
