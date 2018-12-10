@@ -1,0 +1,90 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Battle Beer</title>
+    <meta name="description" content="Splash screen of our Battle Beer Game">
+    <meta name="author" content="Nicolas & Gijs">
+
+    <!-- Background image -->
+    <style>
+        #containerMiddle { background-image: url("./images/background.jpg"); }
+    </style>
+    <link rel="stylesheet" href="./css/containerLayoutStyle.css">
+    <link rel="stylesheet" href="./css/splashStyle.css">
+
+</head>
+
+<body>
+
+    <!-- The space right of the image -->
+    <div id="containerLeft" class="containterSide">
+    </div>
+
+    <!-- The middle container with all the content-->
+    <div id="containerMiddle">
+        <!-- Header -->
+        <header>
+            <!-- Title for the game -->
+            <p id="gameTitle">Battle Beer</p>
+
+            <!-- Statistics for the game -->
+            <div id="gameStats">
+                <table>
+                    <tr>
+                        <td class="statName">
+                            <p>Games Currently Going On:</p>
+                        </td>
+
+                        <td class="target">
+                            <p> NaN </p>
+                        </td>
+
+                        <td class="statName">
+                            <p>Overall Highscore:</p>
+                        </td>
+
+                        <td class="target">
+                            <p> NaN <p></p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </header>
+
+        <!-- Main -->
+        <main>
+            <!--Buttons to play the game and how to play the game -->
+            <div id="buttonsContainter">
+                <button type="button"><a href="game">Play</a></button>
+
+                <button type="button"><a href="tutorial">Tutorial</a></button>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <!-- Full screen mode -->
+            <button id="fullScreenMode" onclick="fullScreen();" type="button">
+                Full Screen Mode
+            </button>
+        </footer>
+
+    </div>
+
+    <!-- the space right of the image -->
+    <div id="containerRight" class="containterSide">
+    </div>
+
+    <!-- Load in jQuery and other scripts-->
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/resizeContainersScript.js"></script>
+    <script src="./js/splashScript.js"></script>
+    <script src="./js/fullScreen.js"></script>
+
+</body>
+
+</html>
